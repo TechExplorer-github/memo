@@ -169,13 +169,13 @@ default-character-set = utf8mb4
 docker のコンテナを起動
 
 ```sh
-docker-compose up -d
+docker　compose up -d
 ```
 
 backend のコンテナ内に入るには下記のコマンドを実行
 
 ```sh
-docker-compose exec backend /bin/bash
+docker　compose exec backend /bin/bash
 ```
 
 後は同様に環境構築をしていけば OK
