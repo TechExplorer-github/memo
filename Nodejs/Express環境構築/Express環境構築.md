@@ -102,8 +102,6 @@ npm run dev
 mysql のコンテナを作成し、接続するようにするため docker-compose.yml を下記のように作成
 
 ```yml
-version: "3.8"
-
 services:
   backend:
     container_name: backend
